@@ -70,7 +70,7 @@ function _setOwner(address newOwner) private {
 
 ## Implementation
 
-Here is an example of `Ownable` in `contracts/Implementation.sol`.
+Here is an example usage of `Ownable` in `contracts/Implementation.sol`.
 
 ```solidity
 //SPDX-License-Identifier: Unlicense
@@ -99,4 +99,4 @@ contract Implementation is Ownable {
 
 When you inherit a contract from Ownable, its constructor will run automatically. And the `msg.sender` (deployer) will be the owner of that contract.
 
-If you want to use, you can look at the usage of [hardhat](https://hardhat.org/getting-started/).
+If you want to interact or something else with this contract, you can look at usage of [hardhat](https://hardhat.org/getting-started/).
